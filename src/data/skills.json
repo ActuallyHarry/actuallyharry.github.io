@@ -1,95 +1,95 @@
 {
     "policy": {
         "name": "Policy",
-        "grc":["/resources/symbols/grc.svg", "Governance, Risk Management, Compliance", true],
-        "erm": ["/resources/symbols/erm.svg","Enterprise Risk Management", true],
-        "bcm": ["/resources/symbols/bcm.svg", "Business Continuity Management", true],
-        "ir":["/resources/symbols/incidentresponse.svg","Incident Response", true],
-        "dr": ["/resources/symbols/disasterrecovery.svg","Disaster Recovery", true],
-        "secpol": ["/resources/symbols/securitypolicy.svg", "Security Policy", true],
-        "crisiscomm": ["/resources/symbols/crisiscomm.svg", "Crisis Commincation", true]
+        "grc":["resources/symbols/grc.svg", "Governance, Risk Management, Compliance", true],
+        "erm": ["resources/symbols/erm.svg","Enterprise Risk Management", true],
+        "bcm": ["resources/symbols/bcm.svg", "Business Continuity Management", true],
+        "ir":["resources/symbols/incidentresponse.svg","Incident Response", true],
+        "dr": ["resources/symbols/disasterrecovery.svg","Disaster Recovery", true],
+        "secpol": ["resources/symbols/securitypolicy.svg", "Security Policy", true],
+        "crisiscomm": ["resources/symbols/crisiscomm.svg", "Crisis Commincation", true]
     },
     "cybersec": {
         "name": "Cybersecurity",
-        "wireshark":["/resources/symbols/wireshark.svg","Wireshark", false],
-        "sleuthkit":["/resources/symbols/sleuthkit.png", "The Sleuth Kit", true],
-        "autopsy":["/resources/symbols/autopsy.png", "Autopsy", false] , 
-        "att&ck":["/resources/symbols/att&ck.png", "MITRE ATT&CK", true]
+        "wireshark":["resources/symbols/wireshark.svg","Wireshark", false],
+        "sleuthkit":["resources/symbols/sleuthkit.png", "The Sleuth Kit", true],
+        "autopsy":["resources/symbols/autopsy.png", "Autopsy", false] , 
+        "att&ck":["resources/symbols/att&ck.png", "MITRE ATT&CK", true]
     },
     "network": {
         "name":"Networking",
-        "cisco":["/resources/symbols/cisco.svg", "Cisco Networking Devices", true],
-        "ad":["/resources/symbols/activedirectory.svg","Microsoft Active Directory", true],
-        "snort":["/resources/symbols/snort.svg", "Snort", false]    
+        "cisco":["resources/symbols/cisco.svg", "Cisco Networking Devices", true],
+        "ad":["resources/symbols/activedirectory.svg","Microsoft Active Directory", true],
+        "snort":["resources/symbols/snort.svg", "Snort", false]    
     },
     "os": {
         "name":"Operating Systems",
-        "windows":["/resources/symbols/windows.svg", "Windows", true],
-        "linux":["/resources/symbols/linux.svg", "Linux", true],
-        "freebsd":["/resources/symbols/freebsd.svg", "FreeBSD", true],
-        "kali":["/resources/symbols/kali.svg", "Kali Linux", true],
-        "sanssift":["/resources/symbols/sanssift.png", "SANS SIFT Workstation", false]
+        "windows":["resources/symbols/windows.svg", "Windows", true],
+        "linux":["resources/symbols/linux.svg", "Linux", true],
+        "freebsd":["resources/symbols/freebsd.svg", "FreeBSD", true],
+        "kali":["resources/symbols/kali.svg", "Kali Linux", true],
+        "sanssift":["resources/symbols/sanssift.png", "SANS SIFT Workstation", false]
     },
     "editor": {
         "name":"Editors",
-        "vscode": ["/resources/symbols/vscode.svg", "Visual Studio Code", true],
-        "vstudio": ["/resources/symbols/vstudio.svg", "Visual Studio Community", null],
-        "eclipse":["/resources/symbols/eclipse.svg", "Eclipse IDE", null],
-        "vim": ["/resources/symbols/vim.gif", "Vim", true],        
-        "unity":["/resources/symbols/unity.svg","Unity Game Engine", null],
-        "godot":["/resources/symbols/godot.svg", "Godot Game Engine", null]
+        "vscode": ["resources/symbols/vscode.svg", "Visual Studio Code", true],
+        "vstudio": ["resources/symbols/vstudio.svg", "Visual Studio Community", null],
+        "eclipse":["resources/symbols/eclipse.svg", "Eclipse IDE", null],
+        "vim": ["resources/symbols/vim.gif", "Vim", true],        
+        "unity":["resources/symbols/unity.svg","Unity Game Engine", null],
+        "godot":["resources/symbols/godot.svg", "Godot Game Engine", null]
     },
     "language": {
         "name": "Languages",
-        "csharp": ["/resources/symbols/csharp.svg", "C#", true],
-        "python": ["/resources/symbols/python.svg", "Python", false],
-        "java": ["/resources/symbols/java.png", "Java", false],
-        "ruby":["/resources/symbols/ruby.png", "Ruby", null],
-        "php":["/resources/symbols/php.svg", "PHP", true],
-        "mysql":["/resources/symbols/mysql.svg", "MySQL", true]
+        "csharp": ["resources/symbols/csharp.svg", "C#", true],
+        "python": ["resources/symbols/python.svg", "Python", false],
+        "java": ["resources/symbols/java.png", "Java", false],
+        "ruby":["resources/symbols/ruby.png", "Ruby", null],
+        "php":["resources/symbols/php.svg", "PHP", true],
+        "mysql":["resources/symbols/mysql.svg", "MySQL", true]
     },
     "web": {
         "name": "Web Technologies",
-        "html":["/resources/symbols/html.svg", "HTML", true],
-        "css":["/resources/symbols/css.svg", "CSS", true],
-        "js":["/resources/symbols/javascript.svg","Javascript", true],
-        "ts":["/resources/symbols/typescript.svg","Typescript", true],
-        "json":["/resources/symbols/json.svg", "JSON", true],
-        "xml":["/resources/symbols/xml.svg", "XML", true],
-        "nodejs":["/resources/symbols/nodejs.png", "Node.js", true],
-        "react":["/resources/symbols/react.svg", "React", true],
-        "electron":["/resources/symbols/electron.svg", "Electron.js", true]
+        "html":["resources/symbols/html.svg", "HTML", true],
+        "css":["resources/symbols/css.svg", "CSS", true],
+        "js":["resources/symbols/javascript.svg","Javascript", true],
+        "ts":["resources/symbols/typescript.svg","Typescript", true],
+        "json":["resources/symbols/json.svg", "JSON", true],
+        "xml":["resources/symbols/xml.svg", "XML", true],
+        "nodejs":["resources/symbols/nodejs.png", "Node.js", true],
+        "react":["resources/symbols/react.svg", "React", true],
+        "electron":["resources/symbols/electron.svg", "Electron.js", true]
     },
     "control": {
         "name": "Control & Deployment",
-        "git": ["/resources/symbols/git.svg", "Git", true],
-        "github": ["/resources/symbols/github.svg", "GitHub", true],
-        "docker": ["/resources/symbols/docker.png", "Docker", false]
+        "git": ["resources/symbols/git.svg", "Git", true],
+        "github": ["resources/symbols/github.svg", "GitHub", true],
+        "docker": ["resources/symbols/docker.png", "Docker", false]
     },
     "software": {
         "name":"Software",
         "affinity":["resources/symbols/affinity.svg", "Affinity Photo, Desginer and Publisher", true],
         "blender":["resources/symbols/blender.svg", "Blender", false],
-        "gimp":["/resources/symbols/gimp.svg", "GNU Image Manipulation Program", true],
-        "inkscape":["/resources/symbols/inkscape.svg", "Inkscape", true],
-        "davinci":["/resources/symbols/davinci.svg", "DaVinci Resolve", null],
-        "audacity":["/resources/symbols/audacity.svg", "Audacity", null]
+        "gimp":["resources/symbols/gimp.svg", "GNU Image Manipulation Program", true],
+        "inkscape":["resources/symbols/inkscape.svg", "Inkscape", true],
+        "davinci":["resources/symbols/davinci.svg", "DaVinci Resolve", null],
+        "audacity":["resources/symbols/audacity.svg", "Audacity", null]
     },
     "document": {
         "name":"Documentation",
-        "latex": ["/resources/symbols/latex.svg", "LaTeX", true],
-        "texworks": ["/resources/symbols/texworks.png", "TeXworks", true],
-        "overleaf":["/resources/symbols/overleaf.svg", "Overleaf", true],
-        "obsidian":["/resources/symbols/obsidian.svg", "Obsidian", null]
+        "latex": ["resources/symbols/latex.svg", "LaTeX", true],
+        "texworks": ["resources/symbols/texworks.png", "TeXworks", true],
+        "overleaf":["resources/symbols/overleaf.svg", "Overleaf", true],
+        "obsidian":["resources/symbols/obsidian.svg", "Obsidian", null]
     },
     "standard" : {
         "name": "Standards",
-        "hb292":["/resources/symbols/hb292.svg", "A practitioners guide to business continuity management",true],
-        "iso25010":["/resources/symbols/iso25010.svg","Software and Data Quality", true],
-        "iso27005":["/resources/symbols/iso27005.svg","Information security, cybersecurity and privacy protection — Guidance on managing information security risks", true],
-        "iso31000":["/resources/symbols/iso31000.svg","Risk management – Guidelines", true],
-        "nist80030":["/resources/symbols/nist80030.svg","Guide for Conducting Risk Assessments", true],
-        "nist800184":["/resources/symbols/nist800184.svg","Guide for Cybersecurity Event Recovery", true]
+        "hb292":["resources/symbols/hb292.svg", "A practitioners guide to business continuity management",true],
+        "iso25010":["resources/symbols/iso25010.svg","Software and Data Quality", true],
+        "iso27005":["resources/symbols/iso27005.svg","Information security, cybersecurity and privacy protection — Guidance on managing information security risks", true],
+        "iso31000":["resources/symbols/iso31000.svg","Risk management – Guidelines", true],
+        "nist80030":["resources/symbols/nist80030.svg","Guide for Conducting Risk Assessments", true],
+        "nist800184":["resources/symbols/nist800184.svg","Guide for Cybersecurity Event Recovery", true]
     }
 
 }
