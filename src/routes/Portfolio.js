@@ -5,7 +5,6 @@ import "../css/Portfolio.css";
 import Projects from "../Portfolio/Projects";
 import Experience from "../Portfolio/Experience";
 import Summary from "../Portfolio/Summary";
-import { HashLink} from "react-router-hash-link";
 
 const Portfolio = () => {
 
@@ -33,19 +32,19 @@ const PortfolioNav = () => {
   const location = useLocation();
   return (
   <nav id="portfolio-nav" className="sticky-top navbar  px-3">
-  <HashLink className="navbar-brand" to={`${location.pathname}#`}>Portfolio</HashLink>
+  <a className="navbar-brand" href={`${location.pathname}#`}>Portfolio</a>
   <ul className="nav nav-tabs">
     <li className="nav-item">
-    <HashLink className="nav-link" to={`${location.pathname}#summary`}>Summary</HashLink>
+    <a className="nav-link" href={`${location.pathname}#summary`}>Summary</a>
     </li>
     <li className="nav-item">
-    <HashLink className="nav-link" to={`${location.pathname}#projects`}>Projects</HashLink>
+    <a className="nav-link" href={`${location.pathname}#projects`}>Projects</a>
     </li>
     <li className="nav-item">
-    <HashLink className="nav-link" to={`${location.pathname}#experience`}>Experience</HashLink>
+    <a className="nav-link" href={`${location.pathname}#experience`}>Experience</a>
     </li>
     <li className="nav-item">
-    <HashLink className="nav-link" to={`${location.pathname}#knowledge`}>Knowledge</HashLink>
+    <a className="nav-link" href={`${location.pathname}#knowledge`}>Knowledge</a>
     </li>
 </ul>
 
