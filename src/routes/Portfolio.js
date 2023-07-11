@@ -30,21 +30,22 @@ const Portfolio = () => {
 const PortfolioNav = () => {
   
   const location = useLocation();
+  console.log(location);
   return (
   <nav id="portfolio-nav" className="sticky-top navbar  px-3">
-  <a className="navbar-brand" href={`${location.pathname}#`}>Portfolio</a>
+  <a className="navbar-brand" href={`${window.PUBLIC_URL}/#`}>Portfolio</a>
   <ul className="nav nav-tabs">
     <li className="nav-item">
-    <a className="nav-link" href={`${location.pathname}#summary`}>Summary</a>
+    <a className="nav-link" href={`#summary`}>Summary</a>
     </li>
     <li className="nav-item">
-    <a className="nav-link" href={`${location.pathname}#projects`}>Projects</a>
+    <a className="nav-link" href={`#projects`}>Projects</a>
     </li>
     <li className="nav-item">
-    <a className="nav-link" href={`${location.pathname}#experience`}>Experience</a>
+    <a className="nav-link" href={`#experience`}>Experience</a>
     </li>
     <li className="nav-item">
-    <a className="nav-link" href={`${location.pathname}#knowledge`}>Knowledge</a>
+    <a className="nav-link" href={`#knowledge`}>Knowledge</a>
     </li>
 </ul>
 
