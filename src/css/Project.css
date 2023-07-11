@@ -1,0 +1,71 @@
+
+
+.project-view {
+    overflow: hidden;
+    position: relative;
+}
+
+header {
+    padding: 2rem;
+    background-color: var(--emphasis);
+    margin-bottom: 7rem;
+}
+.header-banner {
+    position: absolute;
+    background-color: var(--emphasis);
+    height: 15rem;
+    width: 200%;
+    transform: rotate(7deg) translate(-50%, 10%); 
+    z-index: -1;
+ }
+
+.image-icon {
+    height:2em;
+  }
+
+.card {
+    border-radius: 0.2rem;
+    border:none;
+    background-color: var(--main);
+    color: var(--contrast);
+
+}
+
+.accordion {
+    --bs-accordion-bg: var(--neutral);
+    --bs-accordion-border-color: none;
+    border-radius: 0.2rem;
+    
+    
+}
+
+.accordion-button {
+    background-color: var(--main);
+    color: var(--contrast);
+}
+
+.accordion-button:hover {
+    color: var(--primary);
+}
+
+.accordion-button:focus {
+    box-shadow: var(--primary);
+}
+
+
+
+.project-skills {
+    position: relative;
+    padding: 2rem;
+    background-color: var(--neutral);
+    margin-top: 10rem;
+    color:var(--dim);
+}
+.project-skills-banner {
+    position: absolute;
+    background-color: var(--neutral);
+    height: 15rem;
+    width: 200%;
+    transform: rotate(7deg) translate(-50%); 
+    z-index: -1;
+ }

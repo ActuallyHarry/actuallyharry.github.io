@@ -1,0 +1,79 @@
+[
+    {
+        "id": "grc_bcm",
+        "name": "Health Clinic GRC",
+        "date": "2023-06",
+        "source": "portfolio",
+        "thumbnail": "https://raw.githubusercontent.com/ActuallyAdequate/grc_bcm/main/grc_thumbnail.svg",
+        "description": "This case study showcases the implementation of a cybersecurity risk assessment and business continuity plan for Trusted Health Clinic (THC) according to international standards. The project aimed to evaluate THC's security posture, identify vulnerabilities, and develop strategies to mitigate risks. Additionally, a comprehensive plan was created to ensure operational continuity during potential disruptions.",
+        "assets": [
+            {
+                "type": "list",
+                "title":"Key Details",
+                "items":[
+                    "Client Background: Trusted Health Clinic, led by directors Angelique Farelli and Brad Hill operate a succesful clinic. They have developed an advanced clinic knowledge base for responsive patient resolutions. THC is considering leasing their knowledge base's intellectual property. They utilize the Healthcare One system for patient management, HR, finance, and integration with allied health services, Medicare, and HICAPS systems.",
+                    "Risk Assessment: A thorough analysis was conducted, assessing THC's information assets, threats, and vulnerabilities. The assessment identified key security concerns and provided recommendations for implementing security policies to mitigate risks.",
+                    "Business Continuity Plan: A set of policies were developed, focusing on IT governance, business impact analysis, incident response procedures, and crisis communication. It aimed to ensure uninterrupted operations, efficient incident handling, and effective communication during disruptions."
+                ]
+            },
+            {
+                "type":"pdf",
+                "title": "Trusted Health Clinic Risk Assessment PDF",
+                "link":"https://actuallyadequate.github.io/grc_bcm/thcriskassessment.pdf"
+            },
+            {
+                "type":"pdf",
+                "title":"Trusted Health Clinic Business Continuity Plan PDF",
+                "link":"https://actuallyadequate.github.io/grc_bcm/thcbusconman.pdf"
+            }
+        ],
+        "skills" : [
+            "policy-grc",
+            "policy-erm",
+            "policy-bcm",
+            "policy-crisiscomm",
+            "policy-ir",
+            "standard-iso27005",
+            "standard-iso31000",
+            "standard-nist80030",
+            "standard-nist800184",
+            "standard-hb292",
+            "document-latex",
+            "document-overleaf",
+            "software-affinity"
+        ]
+    },
+    {
+        "id": "valency",
+        "name" : "Valency (A Chemistry Game)",
+        "date": "2020-12",
+        "source": "portfolio",
+        "thumbnail": "https://raw.githubusercontent.com/ActuallyAdequate/valency/main/Assets/Art/ValencyBanner.png",
+        "github" : "https://github.com/ActuallyAdequate/valency",
+        "live" : "https://actuallyadequate.itch.io/valency-a-chemistry-game",
+        "description": "A chemistry memorisation game built in Unity. This project was developed during the minimal spare time during VCE. The game helps to memorise the numerous valency numbers of ions as part of the VCE curriculum. (This may no longer be the case as the ion set will not be updated from 2020).",
+        "assets": [
+            {
+                "type": "links",
+                "links" : [
+                    ["live", "https://actuallyadequate.itch.io/valency-a-chemistry-game"],  
+                    ["github","https://github.com/ActuallyAdequate/valency"],
+                    ["googleplay", "https://play.google.com/store/apps/details?id=com.ActuallyAdequate.Valency"],
+                    ["itch", "https://actuallyadequate.itch.io/valency-a-chemistry-game"] 
+                       
+                ]
+            },
+            {
+                "type":"screenshot",
+                "src":"https://raw.githubusercontent.com/ActuallyAdequate/valency/main/Assets/Art/valency_screenshot.png",
+                "alt":"Valency Game Screenshots"
+            }
+        ] ,
+        "skills": [
+            "language-csharp",
+            "editor-unity",
+            "editor-vstudio",
+            "software-inkscape"            
+        ]  
+    }
+]

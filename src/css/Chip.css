@@ -1,0 +1,140 @@
+:root {
+    --chip-color: var(--main-bg);
+    --chip-border: var(--highlight);
+    --initial-chip: var(--emphasis); 
+    --chip-text: var(--contrast);
+    --electric-surge: aqua;
+    --electric-power: blue;
+    --chip-prong : gold;
+    --chip-hover: var(--primary);
+}
+
+.chip{
+    position:absolute;
+    transform: translate(-50%, -50%);
+    
+}
+
+.chip-block{
+    position: absolute;
+    border-style: solid;
+    border-width: 0.5em;
+    border-color: var(--chip-border);
+    border-radius: 10px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--chip-color);
+}
+
+.chip-hover{
+    z-index: 2;
+    background:var(--chip-color);
+    overflow: hidden;
+    display:flex;
+   
+    
+}
+
+.chip-hover svg {
+    fill: var(--chip-text);
+    width: 90%;
+    height: 90%;
+}
+.chip-hover:hover svg {
+    fill: var(--chip-hover);
+
+}
+
+.chip-hover:hover .chip-text {
+    color: var(--chip-hover);
+}
+
+.chip-vertical {
+ justify-content: center;
+}
+
+.chip-horizontal {
+    align-items: center;
+}
+
+.chip-text{
+    pointer-events: none;
+    text-align: center;
+    color: var(--chip-text);
+}
+
+.chip-click-thru {
+    pointer-events: none
+}
+
+.chip-io {
+    background-color: var(--chip-prong);
+}
+
+.chip-io-horizontal {
+    justify-content: space-between; 
+    display: flex;   
+}
+
+.chip-io-vertical {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .chip-click {
+    
+} */
+
+#cpu .chip-click {
+    border-style:none;
+    border-radius: 10px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    overflow:hidden;
+}
+
+.chip-click:after{
+    content: "";
+    position: absolute;
+    background: var(--chip-color);
+    width:80%;
+    height: 80%;
+    border-radius:10px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.chip-click-gradient{
+    height:500%;
+    width: 110%;
+    position: absolute;
+    background: linear-gradient(
+      var(--electric-power), 
+      var(--electric-power),
+      var(--electric-surge),   
+      var(--electric-surge),
+       white,
+       var(--initial-chip),
+       var(--initial-chip),
+       var(--initial-chip),
+       var(--initial-chip)
+     );
+    /* animation: bordergrad 2s infinite linear;
+   */
+}
+
+@keyframes bordergrad {
+    from {
+        transform: translate(0%,-75%);
+    }
+    to {
+        transform: translate(0%,0%);
+    }
+}
+
+
+

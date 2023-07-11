@@ -1,0 +1,81 @@
+:root {
+    --main-bg-dark:#121212;
+    --main-dark: #627d98;
+    --neutral-dark: #9fb3c8;
+    --emphasis-dark: #102a43;
+    --dim-dark: #1e2633;
+    --contrast-dark: #f0f4f8;
+
+    --primary-dark: rgb(58, 206, 139);
+    --primary-active-dark: rgb(101, 206, 159);
+    --secondary-dark: #7e7e7e;
+    --highlight-dark: rgb(13, 13, 231);
+    --alert-dark: #c7122d;
+
+
+    --main-bg: var(--main-bg-dark);
+    --main: var(--main-dark);
+    --neutral: var(--neutral-dark);
+    --emphasis: var(--emphasis-dark);
+    --dim: var(--dim-dark);
+    --contrast: var(--contrast-dark);
+
+    --primary: var(--primary-dark);
+    --primary-active: var(--primary-active-dark);
+    --secondary: var(--secondary-dark);
+    --highlight: var(--highlight-dark);
+    --alert: var(--alert-dark);
+
+
+}
+
+body {
+    background-color: var(--main-bg);
+    color: var(--contrast);
+}
+
+nav {
+    background-color: var(--dim);
+    color: var(--contrast);
+}
+
+.nav-link {
+    color: var(--contrast);
+}
+
+.nav-link:hover {
+    color: var(--primary);
+}
+
+/* thiss is needed becuase bootstrap puts a color on it */
+.nav-link:focus { 
+    color: var(--contrast);
+
+}
+
+a {
+    color: var(--neutral);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--primary)
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-active);
+    border-color: var(--primary-active);
+}
+
+.navbar-brand {
+    color: var(--neutral)
+}
+
+.navbar-brand:hover{
+    color: var(--neutral);
+}

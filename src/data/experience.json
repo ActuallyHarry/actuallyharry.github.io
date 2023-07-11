@@ -1,0 +1,33 @@
+{
+    "education": [       
+        
+        {
+            "year":"2023",
+            "title":"Bachelor of Computer Science",
+            "description": "Majors: Cybersecurity, Network Design"
+        },
+        {
+            "year":"2020",
+            "title":"Certificate III Digital Media, Information Technology and Programming" ,
+            "description":""
+         }
+    ],
+   "work": [
+    {
+        "year" : "2023",
+        "title": "Software Developement",
+        "description": "Developement of an automated network deployment application with php unix scripting. The application allows for rapid deployment of customised bgp networks so that experiments can be run in between tutorials that use the same devices."
+    },
+    {
+        "year": "2021-2023",
+        "title": "Network Helpdesk Tutor",
+        "description": "This role involves providing support services for first year students for the core networking subjects. Including concepts for cisco switching, routing and microsoft active directory."
+    },
+    {
+        "year":"2021-2022",
+        "title": "Deployment of PLDs",
+        "description": "Assisted with the deployment of personal learning devices for a new school program. This involved the reimaging of aprox. 200 laptops."
+        
+    }
+]
+}

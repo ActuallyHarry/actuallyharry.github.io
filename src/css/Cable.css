@@ -1,0 +1,12 @@
+
+.cable {
+    position: absolute;
+    overflow: hidden;
+}
+
+.cable-gradient {
+    position:absolute;
+    height: 400%;
+    width: 110%;
+    background: linear-gradient( transparent 25%, var(--electric-surge), var(--electric-power) 75%);
+}
