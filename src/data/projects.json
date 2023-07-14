@@ -24,7 +24,7 @@
             {
                 "type":"pdf",
                 "title":"Trusted Health Clinic Business Continuity Plan PDF",
-                "link":"https://actuallyadequate.github.io/grc_bcm/thcbusconman.pdf"
+                "link":"https://projects.actuallyadequate.com/grc_bcm/thcbusconman.pdf"
             }
         ],
         "skills" : [
@@ -48,7 +48,7 @@
         "name":"BIND DDNS CPanel",
         "date":"2022-09",
         "source":"portfolio",
-        "thumbnail":"https://actuallyadequate.github.io/ddns-cpanel/documentation/zoneview.png",
+        "thumbnail":"https://projects.actuallyadequate.com/ddns-cpanel/documentation/zoneview.png",
         "github":"https://github.com/ActuallyAdequate/ddns-cpanel",
         "description":"This DDNS control panel was a project to demonstrate understanding of the network services, BIND and Apache, aswell as the FreeBSD OS. The control panel allows for the creation and management of DNS zones and records for different users, and controls access to the zones based on permissions. The solution also involved the developement of CLI tools to create accounts, zone records, and load multiple zones from a CSV file.",
         "assets": [
@@ -61,7 +61,7 @@
             {
                 "type": "pdf",
                 "title": "DDNS Documentation PDF",
-                "link":"https://actuallyadequate.github.io/ddns-cpanel/documentation/DNSDocumentation.pdf"
+                "link":"https://projects.actuallyadequate.com/ddns-cpanel/documentation/DNSDocumentation.pdf"
             }
         ],
         "skills": [
@@ -76,7 +76,7 @@
         "name": "Medical DB Security",
         "date": "2021-10",
         "source": "portfolio",
-        "thumbnail": "https://actuallyadequate.github.io/medicaldatabase/thumbnail.png",
+        "thumbnail": "https://projects.actuallyadequate.com/medicaldatabase/thumbnail.png",
         "github": "https://github.com/ActuallyAdequate/medicaldatabase",
         "description": "This is a datastore for a mock medical service. It holds user account information, as well as a records of appointments made, patient information, and employee information such as salary work hours etc. Main use cases for the datastore will be for users requesting their appointment details, medical professionals requesting patient information, and managers requesting employee data. The database is a relational database in MYSQL.",
         "assets" : [
@@ -91,12 +91,12 @@
             {
                 "type": "pdf",
                 "title": "Datastore Design PDF",
-                "link": "https://actuallyadequate.github.io/medicaldatabase/datadesign.pdf"
+                "link": "https://projects.actuallyadequate.com/medicaldatabase/datadesign.pdf"
             }, 
             {
                 "type": "pdf",
                 "title": "Data Security Research PDF",
-                "link": "https://actuallyadequate.github.io/medicaldatabase/dbsecresearch.pdf"
+                "link": "https://projects.actuallyadequate.com/medicaldatabase/dbsecresearch.pdf"
             }
         ],
         "skills": [
