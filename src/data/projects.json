@@ -19,7 +19,7 @@
             {
                 "type":"pdf",
                 "title": "Trusted Health Clinic Risk Assessment PDF",
-                "link":"https://actuallyadequate.github.io/grc_bcm/thcriskassessment.pdf"
+                "link":"https://projects.actuallyadequate.com/grc_bcm/thcriskassessment.pdf"
             },
             {
                 "type":"pdf",
@@ -60,7 +60,7 @@
             },
             {
                 "type": "pdf",
-                "title": "DDNS Documentation",
+                "title": "DDNS Documentation PDF",
                 "link":"https://actuallyadequate.github.io/ddns-cpanel/documentation/DNSDocumentation.pdf"
             }
         ],
@@ -90,12 +90,12 @@
             },
             {
                 "type": "pdf",
-                "title": "Datastore Design",
+                "title": "Datastore Design PDF",
                 "link": "https://actuallyadequate.github.io/medicaldatabase/datadesign.pdf"
             }, 
             {
                 "type": "pdf",
-                "title": "Data Security Research",
+                "title": "Data Security Research PDF",
                 "link": "https://actuallyadequate.github.io/medicaldatabase/dbsecresearch.pdf"
             }
         ],
