@@ -33,7 +33,9 @@ const Project = () => {
                     case "links":
                         return <Links links ={asset.links}/>
                     case "screenshot":
-                        return <ScreenShot src={asset.src} alt={asset.alt}/>
+                        return <ScreenShot src={asset.src} alt={asset.alt} width={asset.width}/>
+                    case "video":
+                        return <Video code={asset.code}/>
 
                 }
             })}
@@ -53,11 +55,21 @@ const Project = () => {
     )
 }
 
-const ScreenShot = ({src, alt}) => {
+const Video = ({code}) => {
     return (
-        <div className="card m-1">
+        <div className="card m-1 text-center" >
         <div className="card-body">
-        <img className="card-img" src={src} alt={alt}/>
+        <iframe width="560" height="315" src={`https://www.youtube.com/embed/${code}`} title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+    )
+}
+
+const ScreenShot = ({src, alt, width}) => {
+    return (
+        <div className="card m-1 text-center" >
+        <div className="card-body">
+        <img className="card-img" src={src} alt={alt} style={{width: width}}/>
         </div>
     </div>
     )
