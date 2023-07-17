@@ -1,3 +1,4 @@
 # ActuallyAdequate
-This is behind the page of projects.actuallyadequate.com.
+This is behind the page of the actuallyadequate portfolio
+
 
