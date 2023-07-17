@@ -59,7 +59,7 @@ const Projects = () => {
                   return (
                     <div key={project.id} className="slide" style={{width: `${100/itemsPerSlide}%`}}>
                       <div className="card m-4">
-                        <Link to={project.link}><img className="card-img-top" src={project.thumbnail} alt=""/></Link>
+                        <Link to={`${sourceData[project.source].link}${project.id}`}><img className="card-img-top" src={project.thumbnail} alt=""/></Link>
                         <div className="card-body">
                           <h5 className="card-title d-inline-block m-1">{project.name}</h5>
                           <Link className="btn btn-sm btn-primary m-1" to={`${sourceData[project.source].link}${project.id}`}>Details</Link>
