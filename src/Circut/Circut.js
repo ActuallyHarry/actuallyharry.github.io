@@ -14,14 +14,14 @@ const Circut = ({scrollToIds, onScrollTo}) =>{
     let cpuLoc = {x:size[0]/2 ,y:size[1]/2}
     let iowidth = cpuSize/10;
 
-    let chip1 = (windowSize[0] > windowSize[1] ? {width:cpuSize*0.8, height: cpuSize*0.5, x: size[0]/5, y: size[1]/4, id:"chip1", innerPer:{x:0.5, y:0.4}, expandPer:{x:1.3, y:0.7}}
-    : {width:cpuSize*0.85, height: cpuSize*0.8, x: size[0]/5, y: size[1]/4, id:"chip1", innerPer:{x:0.75, y:0.75}, expandPer:{x:1.3, y:0.8}});
-    let chip2 = (windowSize[0] > windowSize[1] ? {width: cpuSize*0.6, height: cpuSize * 1.3, x:size[0]/8 * 7, y: size[1]/3, id:"chip2", innerPer:{x:0.35, y:0.5}, expandPer:{x:0.9, y:1.4}}
-    : {width: cpuSize*0.6, height: cpuSize * 1.3, x:size[0]/8 * 7, y: size[1]/3, id:"chip2", innerPer:{x:0.7, y:0.73}, expandPer:{x:0.8, y:1.7}});
+    let chip1 = (windowSize[0] > windowSize[1] ? {width:cpuSize*1.2, height: cpuSize*0.5, x: size[0]/5, y: size[1]/4, id:"chip1", innerPer:{x:0.5, y:0.4}, expandPer:{x:1.3, y:0.7}}
+    : {width:cpuSize*0.9, height: cpuSize*0.8, x: size[0]/5, y: size[1]/4, id:"chip1", innerPer:{x:0.75, y:0.75}, expandPer:{x:1.3, y:0.8}});
+    let chip2 = (windowSize[0] - windowSize[1] > -150 ? {width: cpuSize*0.6, height: cpuSize * 2.2, x:size[0]/8 * 7, y: size[1]/3, id:"chip2", innerPer:{x:0.35, y:0.5}, expandPer:{x:0.9, y:1.4}}
+    : {width: cpuSize*0.6, height: cpuSize * 3.5, x:size[0]/8 * 7, y: size[1]/3, id:"chip2", innerPer:{x:0.7, y:0.73}, expandPer:{x:0.8, y:1.7}});
     let chip3 = (windowSize[0] > windowSize[1] ? {width: cpuSize*1.5, height: cpuSize * 0.5, x:size[0]/3*2, y: size[1] / 5 *4, id: "chip3", innerPer:{x:0.5, y:0.4}, expandPer:{x:1, y:0.8}}
     : {width: cpuSize*1.5, height: cpuSize * 0.5, x:size[0]/3*2, y: size[1] / 5 *4, id: "chip3", innerPer:{x:0.75, y:0.7}, expandPer:{x:1.3, y:0.9}} )
-    let chip4 = (windowSize[0] > windowSize[1] ? {width: cpuSize*0.8, height: cpuSize * 1, x: size[0]/6, y: size[1]/11*7, id: "chip4", innerPer:{x:0.4, y:0.5}, expandPer:{x:0.8, y:1.5}}
-:{width: cpuSize*0.8, height: cpuSize * 1, x: size[0]/6, y: size[1]/11*7.5, id: "chip4", innerPer:{x:0.75, y:0.7}, expandPer:{x:0.8, y:2.2}});
+    let chip4 = (windowSize[0] > windowSize[1] ? {width: cpuSize*0.8, height: cpuSize * 1.8, x: size[0]/6, y: size[1]/11*7, id: "chip4", innerPer:{x:0.4, y:0.5}, expandPer:{x:0.8, y:1.5}}
+:{width: cpuSize*0.8, height: cpuSize * 2.8, x: size[0]/6, y: size[1]/11*7.5, id: "chip4", innerPer:{x:0.75, y:0.7}, expandPer:{x:0.8, y:2.2}});
 
     let cpuProng1 = {x: cpuLoc.x - iowidth*2 , y: cpuLoc.y - cpuSize/2}
     let cpuProng2 = {x: cpuLoc.x + cpuSize/2, y: cpuLoc.y + iowidth*2}

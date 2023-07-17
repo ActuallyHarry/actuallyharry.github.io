@@ -9,6 +9,11 @@
     --chip-hover: var(--primary);
 }
 
+#cpu .chip-block{
+    justify-content: center;
+    align-items: center;
+}
+
 .chip{
     position:absolute;
     transform: translate(-50%, -50%);
@@ -25,6 +30,8 @@
     left:50%;
     transform: translate(-50%, -50%);
     background-color: var(--chip-color);
+    min-width: fit-content;
+    min-height: fit-content;
 }
 
 .chip-hover{
@@ -52,16 +59,21 @@
 
 .chip-vertical {
  justify-content: center;
+ align-items: center;
 }
 
 .chip-horizontal {
-    align-items: center;
+    position: relative;
+    top:50%;
+    transform: translate(0, -50%);
+    justify-content: center;
 }
 
 .chip-text{
     pointer-events: none;
     text-align: center;
     color: var(--chip-text);
+
 }
 
 .chip-click-thru {
@@ -96,7 +108,7 @@
     overflow:hidden;
 }
 
-.chip-click:after{
+#cpu .chip-click:after{
     content: "";
     position: absolute;
     background: var(--chip-color);
