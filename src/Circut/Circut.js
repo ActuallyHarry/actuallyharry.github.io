@@ -27,8 +27,8 @@ const Circut = ({scrollToIds, onScrollTo}) =>{
     let cpuProng2 = {x: cpuLoc.x + cpuSize/2, y: cpuLoc.y + iowidth*2}
     let cpuProng3 = {x: cpuLoc.x, y:cpuLoc.y+cpuSize/2}
     let cpuProng4 = {x: cpuLoc.x - cpuSize/2, y: cpuLoc.y - iowidth*2 }
-    let cable1Path = [cpuProng1, {x:cpuProng1.x, y:size[1]/7}, {x:(chip1.x + cpuLoc.x)/2, y:size[1]/7}, {x:(chip1.x + cpuLoc.x)/2, y:size[1]/2.6}, {x:chip1.x + iowidth*1.5,  y:size[1]/2.6 }, {x:chip1.x + iowidth*1.5, y:size[1]/4 + chip1.height/2}]
-    let cable2Path = [cpuProng2, {x:(cpuProng2.x+chip2.x-chip2.width/2)/2, y:cpuProng2.y}, {x:(cpuProng2.x+chip2.x-chip2.width/2)/2, y:chip2.y - iowidth *2.7}, {x:chip2.x-chip2.width/2, y:chip2.y - iowidth *2.7}];
+    let cable1Path = [cpuProng1, {x:cpuProng1.x, y:size[1]/7}, {x:(chip1.x + cpuLoc.x)/2, y:size[1]/7}, {x:(chip1.x + cpuLoc.x)/2, y:size[1]/2.6}, {x:chip1.x + iowidth*2.4,  y:size[1]/2.6 }, {x:chip1.x + iowidth*2.4, y:size[1]/4 + chip1.height/2}]
+    let cable2Path = [cpuProng2, {x:(cpuProng2.x+chip2.x-chip2.width/2)/2, y:cpuProng2.y}, {x:(cpuProng2.x+chip2.x-chip2.width/2)/2, y:chip2.y - iowidth *3}, {x:chip2.x-chip2.width/2, y:chip2.y - iowidth *3}];
     let cable3Path =  (windowSize[0] > windowSize[1] ? [cpuProng3, {x:cpuProng3.x, y:cpuProng3.y+iowidth}, {x:chip3.x-chip3.width/3, y:cpuProng3.y+iowidth}, {x:chip3.x-chip3.width/3, y:chip3.y-chip3.height/2-iowidth}, {x:chip3.x + iowidth*3.3, y:chip3.y-chip3.height/2-iowidth}, {x:chip3.x + iowidth*3.3, y:chip3.y-chip3.height/2}]
     : [cpuProng3,  {x:cpuProng3.x, y:chip3.y-chip3.height/2-iowidth}, {x:chip3.x + iowidth*3.3, y:chip3.y-chip3.height/2-iowidth}, {x:chip3.x + iowidth*3.3, y:chip3.y-chip3.height/2}] );
     let cable4Path = (windowSize[0] > windowSize[1] ? [cpuProng4, {x: cpuProng4.x-iowidth*2, y:cpuProng4.y}, {x:cpuProng4.x-iowidth*2, y: chip4.y}, {x:chip4.x+chip4.width/2, y:chip4.y}]
