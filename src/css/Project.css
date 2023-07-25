@@ -7,12 +7,12 @@
 
 header {
     padding: 2rem;
-    background-color: var(--emphasis);
+    background-color: var(--primary);
     margin-bottom: 7rem;
 }
 .header-banner {
     position: absolute;
-    background-color: var(--emphasis);
+    background-color: var(--primary);
     height: 15rem;
     width: 200%;
     transform: rotate(7deg) translate(-50%, 10%); 
@@ -26,13 +26,13 @@ header {
 .card {
     border-radius: 0.2rem;
     border:none;
-    background-color: var(--main);
-    color: var(--contrast);
+    background-color: var(--primary);
+    color: var(--text);
 
 }
 
 .accordion {
-    --bs-accordion-bg: var(--neutral);
+    --bs-accordion-bg: var(--secondary);
     --bs-accordion-border-color: none;
     border-radius: 0.2rem;
     
@@ -40,16 +40,20 @@ header {
 }
 
 .accordion-button {
-    background-color: var(--main);
+    background-color: var(--primary);
     color: var(--contrast);
 }
 
 .accordion-button:hover {
-    color: var(--primary);
+    color: var(--accent-focus);
+}
+
+.accordion-button{
+    color: var(--accent);
 }
 
 .accordion-button:focus {
-    box-shadow: var(--primary);
+    box-shadow: var(--accent);
 }
 
 
@@ -68,4 +72,8 @@ header {
     width: 200%;
     transform: rotate(7deg) translate(-50%); 
     z-index: -1;
+ }
+
+ #links {
+    background-color: var(--neutral);
  }

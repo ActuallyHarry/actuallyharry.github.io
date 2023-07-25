@@ -1,12 +1,12 @@
 :root {
-    --chip-color: var(--main-bg);
-    --chip-border: var(--highlight);
-    --initial-chip: var(--emphasis); 
-    --chip-text: var(--contrast);
+    --chip-color: var(--background);
+    --chip-border: blue;
+    --initial-chip: var(--primary); 
+    --chip-text: var(--accent);
     --electric-surge: aqua;
     --electric-power: blue;
     --chip-prong : gold;
-    --chip-hover: var(--primary);
+    --chip-hover: var(--accent-focus);
 }
 
 #cpu .chip-block{

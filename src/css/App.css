@@ -1,4 +1,26 @@
 :root {
+    --text: #050505;
+    --background: #fafafa;
+    --primary: #6187ab;
+    --secondary: #9fb3c8;
+    --accent: #e11e72;
+    --accent-focus: #e481a9;
+    --text-light: #e8e3e5;
+    --neutral: #9fb3c8;
+
+    
+}
+
+html[data-theme="dark"] {
+    --text: #fafafa;
+    --background: #050505;
+    --primary: #0d144d;
+    --secondary: #102a43;
+    --accent: #e11e72;
+    --accent-focus: #e481a9;
+}
+
+/* :root {
     --main-bg-dark:#121212;
     --main-dark: #627d98;
     --neutral-dark: #9fb3c8;
@@ -27,55 +49,117 @@
     --alert: var(--alert-dark);
 
 
-}
+} */
 
 body {
-    background-color: var(--main-bg);
-    color: var(--contrast);
+    background-color: var(--background);
+    color: var(--text);
 }
 
 nav {
-    background-color: var(--dim);
-    color: var(--contrast);
+    background-color: var(--secondary);
+    color: var(--text);
 }
 
 .nav-link {
-    color: var(--contrast);
+    color: var(--accent);
 }
 
 .nav-link:hover {
-    color: var(--primary);
+    color: var(--accent-focus);
 }
+
+nav img {width: 2em;} 
 
 /* thiss is needed becuase bootstrap puts a color on it */
 .nav-link:focus { 
-    color: var(--contrast);
+    color: var(--accent);
 
 }
 
 a {
-    color: var(--neutral);
+    color: var(--accent);
     text-decoration: none;
 }
 
 a:hover {
-    color: var(--primary)
+    color: var(--accent-focus)
 }
 
 .btn-primary {
-    background-color: var(--primary);
-    border-color: var(--primary);
+    background-color: var(--accent);
+    border-color: var(--accent-focus);
 }
 
 .btn-primary:hover {
-    background-color: var(--primary-active);
-    border-color: var(--primary-active);
+    background-color: var(--accent-focus);
+    border-color: var(--accent-focus);
 }
 
-.navbar-brand {
+/* .navbar-brand {
     color: var(--neutral)
-}
+} */
 
-.navbar-brand:hover{
+/* .navbar-brand:hover{
     color: var(--neutral);
-}
+} */
+
+/*Simple css to style it like a toggle switch*/
+.theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+  
+    em {
+      margin-left: 10px;
+      font-size: 1rem;
+    }
+  }
+  .theme-switch {
+    display: inline-block;
+    height: 34px;
+    position: relative;
+    width: 60px;
+  }
+  
+  .theme-switch input {
+    display:none;
+  }
+  
+  .theme-slider {
+    background-color: var(--background);
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .4s;
+  }
+  
+  .theme-slider:before {
+    background-color: var(--text);
+    bottom: 4px;
+    content: "";
+    height: 26px;
+    left: 4px;
+    position: absolute;
+    transition: .4s;
+    width: 26px;
+  }
+  
+  input:checked + .theme-slider {
+    background-color: var(--background);
+  }
+  
+  input:checked + .theme-slider:before {
+    transform: translateX(26px);
+  }
+  
+  .theme-slider.round {
+    border-radius: 34px;
+  }
+  
+  .theme-slider.round:before {
+    border-radius: 50%;
+  }
+  

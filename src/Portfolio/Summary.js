@@ -24,7 +24,7 @@ const Summary = () => {
                 </aside>
                 <div id="summary-description" className="col-md-8">
                     <div className="container">
-                    <p>
+                    <div>
                         Welcome to my portfolio page! I'm Harry, the myth, the legend, behind ActuallyAdequate.
                         <br/><br/>
                         The key information about me:
@@ -42,7 +42,7 @@ const Summary = () => {
                             <li>Dual Boardgame and Dining Table - To try my hand at carpentry</li>
                             <li>Chimaera - A biopunk RPG that I'm developing here and there</li>
                         </ul>
-                    </p>
+                    </div>
                     </div>
                 </div>
                 </div>

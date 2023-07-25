@@ -77,7 +77,7 @@ const ScreenShot = ({src, alt, width}) => {
 
 const Links = ({links}) => {
     return (
-        <div className="card m-1">
+        <div id="links" className="card m-1">
             <div className="card-body">
                 {links.map((link, index)=> {   
                     switch(link[0]) {
