@@ -30,7 +30,7 @@ const NavBar = () => {
     return (
         <nav>
         <div className="container navbar navbar-expand">
-            <a className="navbar-brand" href="http://actuallyadequate.com"><img src="/AACyber.svg"/></a>
+            <a className="navbar-brand" href="http://actuallyadequate.com"><img src="AACyber.svg"/></a>
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item"><a className="nav-link" href="/">Home</a></li>
                 <li className="nav-item"><a className="nav-link" href="https://projects.actuallyadequate.com/portfolio">Portfolio</a></li>
