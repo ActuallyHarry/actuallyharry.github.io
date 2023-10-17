@@ -14,10 +14,9 @@ const Summary = () => {
                 <aside className="col-md-4" id="social-container">
                     <div className="seperator"></div>
                     <div className="m-4">
-                        <div className="mb-3"><a href="https://github.com/ActuallyAdequate" target="_blank"><img className="image-icon" src={githubImg} alt="GitHub Account"/>  <h5 className="d-inline ">GitHub</h5></a> </div>
-                        <div className="mb-3"><a href="https://www.linkedin.com/in/harry-actuallyadequate" target="_blank"><img className="image-icon" src={linkedinImg} alt="LinkedIn Account"/>  <h5 className="d-inline">LinkedIn</h5></a> </div>
+                        <div className="mb-3"><a href="https://github.com/ActuallyHarry" target="_blank"><img className="image-icon" src={githubImg} alt="GitHub Account"/>  <h5 className="d-inline ">GitHub</h5></a> </div>
+                        <div className="mb-3"><a href="https://www.linkedin.com/in/actually-harry" target="_blank"><img className="image-icon" src={linkedinImg} alt="LinkedIn Account"/>  <h5 className="d-inline">LinkedIn</h5></a> </div>
                         <div className="mb-3"><a href="mailto:actuallyadequate@gmail.com"><img className="image-icon" src={emailImg} alt="Email"/> <h5 className="d-inline">Email</h5></a></div>
-                        <div className="mb-3"><a href="https://play.google.com/store/apps/developer?id=ActuallyAdequate" target="_blank"><img className="image-icon" src={googleplayImg} alt="Google Play Developer Account"/> <h5 className="d-inline">Google Play</h5></a> </div>
                         <div className="mb-3"><a href="https://actuallyadequate.itch.io/" target="_blank"><img className="image-icon" src={itchioImg} alt="Itch.io Account"/>  <h5 className="d-inline">Itch.io</h5></a> </div>
                         <div className="mb-3"><a href="https://tryhackme.com/p/OrangePi" target="_blank"><img className="image-icon" src={tryhackmeImg} alt="TryHackMe Account"/>  <h5 className="d-inline">TryHackMe</h5></a> </div>
                     </div>
