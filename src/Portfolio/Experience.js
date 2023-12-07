@@ -13,7 +13,7 @@ const Experience = () => {
                             <div key={index} className="card m-2 cert-item">
                                 <div className="card-body">
                                     <h5 className="card-title">{award.title}</h5>
-                                    <h6 className="card-subtitle mb-2 text-muted">{award.year}</h6>
+                                    <h6 className="card-subtitle mb-2">{award.year}</h6>
                                     <p className="card-text">{award.description}</p>    
                                 </div>
                             </div>
@@ -32,7 +32,7 @@ const Experience = () => {
                             <div key={index} className="card m-2 timeline-item">
                                 <div className="card-body">
                                     <h5 className="card-title">{work.title}</h5>
-                                    <h6 className="card-subtitle mb-2 text-muted">{work.year}</h6>
+                                    <h6 className="card-subtitle mb-2">{work.year}</h6>
                                     <p className="card-text">{work.description}</p>    
                                 </div>
                             </div>

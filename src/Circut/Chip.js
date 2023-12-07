@@ -39,7 +39,7 @@ const Chip = ({width, height, x,y, iowidth, chipId, hideBydDefault, onClick, ani
             </div>
             </>:<></>
             }
-            {chipId == "cpu" ?  <CPU title={title} chipId={chipId} animateClick={animateClick} height={0.75*height} width={0.75*height/ratio} hoverSize={{originalHeight: innerPer.y*height, newHeight:expandPer.y*height, originalWidth:innerPer.x * height/ratio, newWidth: expandPer.x * height/ratio}} onClick={onClick} handleTouchSeperately={handleTouchSeperately}/> :  <ChipBlock title={title} chipId={chipId} animateClick={animateClick} height={0.75*height} width={0.75*height/ratio} hoverSize={{originalHeight: innerPer.y*height, newHeight:expandPer.y*height, originalWidth:innerPer.x * height/ratio, newWidth: expandPer.x * height/ratio}} onClick={onClick} handleTouchSeperately={handleTouchSeperately}/>}
+            {chipId === "cpu" ?  <CPU title={title} chipId={chipId} animateClick={animateClick} height={0.75*height} width={0.75*height/ratio} hoverSize={{originalHeight: innerPer.y*height, newHeight:expandPer.y*height, originalWidth:innerPer.x * height/ratio, newWidth: expandPer.x * height/ratio}} onClick={onClick} handleTouchSeperately={handleTouchSeperately}/> :  <ChipBlock title={title} chipId={chipId} animateClick={animateClick} height={0.75*height} width={0.75*height/ratio} hoverSize={{originalHeight: innerPer.y*height, newHeight:expandPer.y*height, originalWidth:innerPer.x * height/ratio, newWidth: expandPer.x * height/ratio}} onClick={onClick} handleTouchSeperately={handleTouchSeperately}/>}
             {/* <ChipBlock title={title} chipId={chipId} animateClick={animateClick} height={0.75*height} width={0.75*height/ratio} hoverSize={{originalHeight: innerPer.y*height, newHeight:expandPer.y*height, originalWidth:innerPer.x * height/ratio, newWidth: expandPer.x * height/ratio}} onClick={onClick} handleTouchSeperately={handleTouchSeperately}/> */}
             {/* <ChipBlock height={0.4*height}  width={0.4/ratio * width} hoverSize={{originalHeight: 0.4*height, newHeight:0.6*height, originalWidth:0.4/ratio * width, newWidth: 0.6/ratio * width }} clickThru={true}/> */}
         </div>
@@ -76,7 +76,7 @@ const CPU = ({height, width, hoverSize, onClick, animateClick, chipId, title, ha
     return(
         <div  id={chipId} className={"chip-block chip-click"} onClick={()=>{if(onClick) {onClick(); if(animateClick){animateClick.play();}}}} style={{height: height + "px", width:width + "px"}}>
             {onClick? <div ref={animateEl} id={`${chipId}-gradient`} className="chip-click-gradient"></div> : <></>}
-            {hoverSize? <div className={`chip-block chip-hover`} onMouseEnter={(e)=>{enterHover(e.target)}} onMouseLeave={(e)=>{leaveHover(e.target)}} style={{height: hoverSize.originalHeight + "px", width: hoverSize.originalWidth + "px"}}><h2 ref={textEl} className="chip-text">{title}</h2></div> : <></>}
+            {hoverSize? <a href="/#" className={`chip-block chip-hover`} onMouseEnter={(e)=>{enterHover(e.target)}} onMouseLeave={(e)=>{leaveHover(e.target)}} style={{height: hoverSize.originalHeight + "px", width: hoverSize.originalWidth + "px"}}><h2 ref={textEl} className="chip-text">{title}</h2></a> : <></>}
         </div>   
     ) 
 }
@@ -91,7 +91,7 @@ const ChipBlock = ({height, width, hoverSize, onClick, animateClick, chipId, tit
     return(
         <div  id={chipId} className={"chip-block chip-click"} onClick={()=>{onClick();}} style={{height: height + "px", width:width + "px"}}>
             {/* <h2 ref={textEl} className="chip-text">{title}</h2> */}
-            {hoverSize? <div className={`${chipId== "cpu" ? 'chip-block' : ''} chip-hover ${chipDir}`} ><h4 ref={textEl} className="chip-text">{title}</h4></div> : <></>}
+            {hoverSize? <a href="/#" className={`${chipId== "cpu" ? 'chip-block' : ''} chip-hover ${chipDir}`} ><h4 ref={textEl} className="chip-text">{title}</h4></a> : <></>}
         </div>   
     )    
 } 

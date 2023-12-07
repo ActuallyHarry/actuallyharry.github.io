@@ -148,6 +148,12 @@
   padding-bottom: 8rem;
 }
 
+#experience .card-subtitle {
+    color: var(--text);
+    opacity: 0.5;
+    font-size: smaller;
+}
+
 
 .timeline-line{
   position: absolute;

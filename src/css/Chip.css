@@ -1,5 +1,5 @@
 :root {
-    --chip-color: var(--background);
+    --chip-color: var(--secondary);
     --chip-border: blue;
     --initial-chip: var(--primary); 
     --chip-text: var(--accent);
@@ -59,6 +59,7 @@
 
 .chip-vertical {
  justify-content: center;
+ justify-items: center;
  align-items: center;
 }
 
