@@ -29,7 +29,7 @@ const Projects = () => {
     
     let nextSlide = index;
     let slides = Array.from(projectSlides.current.children);
-    console.log(slides);
+    
     let maxSlides = slides.length-1;
     if(nextSlide > maxSlides) nextSlide = 0;
     if(nextSlide < 0) nextSlide = maxSlides;
@@ -53,7 +53,7 @@ const Projects = () => {
           <h1>Projects</h1>
           <div  className="slider carousel-light" onTouchStart={(e)=>{touchStartX.current = e.touches[0].clientX}} onTouchEnd={(e) => {handleSlideSwipe(touchStartX.current, e.changedTouches[0].clientX)}}>
             <div ref={projectSlides} className="slide-rotate m-4">
-            {itemsPerSlide > 1?<div className="slide" style={{width: `${100/itemsPerSlide}%`}}></div>:<></>}
+            {itemsPerSlide > 1?<div className="slide" style={{width: `${100/itemsPerSlide}%`}}></div>:null}
               {projectData.map((project) => {
                 if(project.source === "portfolio") {
                   return (
@@ -63,8 +63,8 @@ const Projects = () => {
                         <div className="card-body">
                           <h5 className="card-title d-inline-block m-1">{project.name}</h5>
                           <Link className="btn btn-sm btn-primary m-1" to={`${sourceData[project.source].link}${project.id}`}>Details</Link>
-                          {project.github != undefined? <a className="btn btn-sm btn-dark m-1" href={project.github} target="_blank"><img style={{height:"1.3rem"}} src={github}/></a>:<></>}
-                          {project.live != undefined? <a className="btn btn-sm btn-secondary m-1" href={project.live} target="_blank">Demo</a>:<></>}
+                          {project.github !== undefined? <a className="btn btn-sm btn-dark m-1" href={project.github} target="_blank"><img style={{height:"1.3rem"}} src={github}/></a>:<></>}
+                          {project.live !== undefined? <a className="btn btn-sm btn-secondary m-1" href={project.live} target="_blank">Demo</a>:<></>}
                         </div>
                       </div>
                     </div>

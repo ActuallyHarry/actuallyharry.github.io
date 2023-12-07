@@ -29,13 +29,15 @@ const Project = () => {
                     case "pdf":
                         return <PDF linkToPDF={asset.link} id={index} title={asset.title}/>
                     case "list": 
-                        return <List items={asset.items} title={asset.title}/>
+                        return <List items={asset.items} id={index} title={asset.title}/>
                     case "links":
-                        return <Links links ={asset.links}/>
+                        return <Links links ={asset.links} id={index}/>
                     case "screenshot":
-                        return <ScreenShot src={asset.src} alt={asset.alt} width={asset.width}/>
+                        return <ScreenShot src={asset.src} id={index} alt={asset.alt} width={asset.width}/>
                     case "video":
-                        return <Video code={asset.code}/>
+                        return <Video code={asset.code} id={index}/>
+                    default:
+                        return null
 
                 }
             })}

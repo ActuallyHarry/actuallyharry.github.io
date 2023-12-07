@@ -44,6 +44,55 @@
     ]
   },
   {
+    "id": "aeas",
+    "name": "Automated Eforensics Analsyis System",
+    "date": "2023-10",
+    "source": "portfolio",
+    "thumbnail": "resources/assets/aeas_icon.png",
+    "github": "https://github.com/JoeySuttonPreece/sepa-eforensics-2023/",
+    "description": "This was a capstone project for my course which invovled the developement of a digital forensics tool over the course of a yaer in a team of 6 for industry clients. This onvovled applying skills in project management, software dev, team dynamics, and cybersecurity. The final project was show in a final year expo.",
+    "assets": [
+      {
+        "type": "links",
+        "links": [
+          [
+            "github",
+            "https://github.com/JoeySuttonPreece/sepa-eforensics-2023/"
+          ]
+        ]
+      },
+      {
+        "type": "pdf",
+        "title": "AEAS Generated Report",
+        "link": "resources/assets/aeas-report.pdf"
+      },
+      {
+        "type": "pdf",
+        "title": "AEAS Documentation",
+        "link": "resources/assets/aeas_doc.pdf"
+      },
+      {
+        "type": "screenshot",
+        "width": "75%",
+        "src": "resources/assets/aeas_poster.png",
+        "alt": "Valency Game Screenshots"
+      }
+    ],
+    "skills": [
+      "cybersec-sleuthkit",
+      "web-ts",
+      "web-react",
+      "web-electron",
+      "editor-vscode",
+      "os-linux",
+      "control-git",
+      "control-github",
+      "document-latex",
+      "document-overleaf",
+      "standard-iso25010"
+    ]
+  },
+  {
     "id": "ddns-cpanel",
     "name": "BIND DDNS CPanel",
     "date": "2022-09",

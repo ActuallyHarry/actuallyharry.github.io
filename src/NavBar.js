@@ -32,9 +32,9 @@ const NavBar = () => {
         <div className="container navbar navbar-expand">
             <a className="navbar-brand" href="http://actuallyadequate.com"><img src="AACyber.svg"/></a>
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item"><a class="nav-link" href="https://projects.actuallyadequate.com">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="https://portfolio.actuallyadequate.com">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link" href="https://actuallyadequate.itch.io">Games</a></li>
+            <li className="nav-item"><a className="nav-link" href="https://projects.actuallyadequate.com">Home</a></li>
+                <li className="nav-item"><a className="nav-link" href="https://portfolio.actuallyadequate.com">Portfolio</a></li>
+                <li className="nav-item"><a className="nav-link" href="https://actuallyadequate.itch.io">Games</a></li>
             </ul>
             <div className="theme-switch-wrapper">
                 <label className="theme-switch" htmlFor="checkbox">
